@@ -1,0 +1,42 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .component-3 {
+    width: 100%;
+    height: 571px;
+    background-color: black;
+    transform: translate(0px, -34px);
+    .comp-3-title {
+      color: $color-white;
+      font-family: $primary-font-montserrat;
+      padding: 43px 89px 26px;
+      font-size: 28px;
+      font-weight: bold;
+      width: 100%;
+    }
+    .cont-grid {
+      display: flex;
+      justify-content: center;
+      .grid-main-cont {
+        gap: 13px;
+        row-gap: 25px;
+        display: grid;
+        grid-template-columns: 108px 108px 108px 108px 108px;
+        grid-template-rows: 296px 101px;
+        .col-1 {
+          background-color: $color-white;
+          grid-column: span 5;
+          height: 100%;
+          width: 100%;
+        }
+        .col-1:hover {
+          border: 7px solid #ff4242;
+        }
+        .col-2 {
+          background-color: $color-white;
+        }
+        .col-2:hover {
+          border: 7px solid #ff4242;
+        }
+      }
+    }
+  }
+}
