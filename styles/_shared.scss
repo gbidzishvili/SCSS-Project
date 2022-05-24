@@ -1,0 +1,36 @@
+$primary-font-montserrat: "Montserrat", sans-serif;
+$primary-font-open-sans: "Open Sans", sans-serif;
+@mixin spacing-inline {
+  letter-spacing: -0.3px;
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.justify {
+  justify-content: center;
+}
+.border-bottom {
+  border-bottom: 1px solid #dbdbdb;
+}
+.div-border {
+  height: 1px;
+  width: 207px;
+  background-color: #dbdbdb;
+  margin-bottom: 22px;
+}
+.padding-bottom {
+  padding-bottom: 5px;
+}
+.invinsible-cube {
+  display: none;
+}
+.inv-cube-2 {
+  display: none;
+}
+.disp-none {
+  display: none;
+}

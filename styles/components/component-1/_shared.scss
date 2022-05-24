@@ -1,0 +1,11 @@
+.black-on-hover {
+  fill: #fff;
+  width: 24px;
+  &:hover {
+    stroke: "black";
+    fill: black;
+  }
+}
+// .padding-top {
+//   padding-top: 0.4px;
+// }
