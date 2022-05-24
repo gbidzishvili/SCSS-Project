@@ -8,6 +8,7 @@
       gap: 8.3px;
       margin-bottom: 47px;
       transform: translate(232px, 62px);
+      width: 200px;
       .e {
         width: 45px;
         height: 45px;
@@ -33,27 +34,34 @@
         }
       }
     }
-    .hovers {
-      color: #fff;
-      font-family: $primary-font-montserrat;
-      transform: translate(771px, -14px);
-      letter-spacing: -0.9px;
-      span:hover {
-        border-bottom: 1px solid #ed1c24;
+    .desk-flex {
+      // gap: 260px;
+      // width: 702px;
+      // display: flex;
+      // transform: translate(774px, -13px);
+      .hovers {
+        color: #fff;
+        font-family: $primary-font-montserrat;
+        transform: translate(771px, -14px);
+        letter-spacing: -0.9px;
+        width: 240px;
+        span:hover {
+          border-bottom: 1px solid #ed1c24;
+        }
       }
-    }
-    .up-arr {
-      width: 39px;
-      height: 39px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid #fff;
-      transform: translate(1278px, -40px);
-      svg {
-        fill: #fff;
-        &:hover {
-          fill: #ed1c24;
+      .up-arr {
+        width: 39px;
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #fff;
+        transform: translate(1278px, -40px);
+        svg {
+          fill: #fff;
+          &:hover {
+            fill: #ed1c24;
+          }
         }
       }
     }

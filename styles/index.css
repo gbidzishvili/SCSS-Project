@@ -332,6 +332,7 @@ table {
 
   .component-1 {
     width: 100%;
+    margin-bottom: -3px;
     height: 100%;
     background-color: #eeeeee;
   }
@@ -641,6 +642,7 @@ table {
 @media (min-width: 1024px) and (max-width: 1920px) {
   .component-2 {
     transform: translate(508px, -60px);
+    width: 500px;
     display: flex;
   }
   .component-2 .inv-cub-cont {
@@ -1397,9 +1399,11 @@ table {
     color: #fff;
     transform: translate(51px, -31px);
     letter-spacing: -0.3px;
+    width: 200px;
   }
   .red-container .open-sans-text .op-2 {
     transform: translate(43px, 6px);
+    width: 200px;
   }
   .red-container .open-sans-text .op-3 {
     transform: translate(-14px, 11px);
@@ -1415,6 +1419,7 @@ table {
     font-size: 12px;
     color: #fff;
     transform: translate(70px, -20px);
+    width: 200px;
   }
   .red-container .comp-1-last span {
     border: 1px solid #fff;
@@ -1516,6 +1521,7 @@ table {
     gap: 8.3px;
     margin-bottom: 47px;
     transform: translate(232px, 62px);
+    width: 200px;
   }
   .component-5 .comp-1-cont-1 .e {
     width: 45px;
@@ -1541,16 +1547,17 @@ table {
     letter-spacing: 0.8px;
     color: #fff;
   }
-  .component-5 .hovers {
+  .component-5 .desk-flex .hovers {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     transform: translate(771px, -14px);
     letter-spacing: -0.9px;
+    width: 240px;
   }
-  .component-5 .hovers span:hover {
+  .component-5 .desk-flex .hovers span:hover {
     border-bottom: 1px solid #ed1c24;
   }
-  .component-5 .up-arr {
+  .component-5 .desk-flex .up-arr {
     width: 39px;
     height: 39px;
     display: flex;
@@ -1559,10 +1566,10 @@ table {
     border: 1px solid #fff;
     transform: translate(1278px, -40px);
   }
-  .component-5 .up-arr svg {
+  .component-5 .desk-flex .up-arr svg {
     fill: #fff;
   }
-  .component-5 .up-arr svg:hover {
+  .component-5 .desk-flex .up-arr svg:hover {
     fill: #ed1c24;
   }
 }
@@ -1577,6 +1584,7 @@ table {
     gap: 8.3px;
     margin-bottom: 47px;
     transform: translate(27px, 31px);
+    width: 200px;
   }
   .component-5 .comp-1-cont-1 .e {
     width: 39px;
@@ -1610,6 +1618,7 @@ table {
     transform: translate(26px, 21px);
     font-size: 13.8px;
     letter-spacing: -0.9px;
+    width: 200px;
   }
   .component-5 .hovers span:hover {
     border-bottom: 1px solid #ed1c24;
@@ -1641,6 +1650,7 @@ table {
     gap: 8.3px;
     margin-bottom: 48px;
     transform: translate(87px, 35px);
+    width: 250px;
   }
   .component-5 .comp-1-cont-1 .e {
     width: 45px;
@@ -1658,6 +1668,7 @@ table {
   }
   .component-5 .comp-1-cont-1 .exhibition {
     padding-top: 7px;
+    width: 250px;
   }
   .component-5 .comp-1-cont-1 .exhibition span {
     font-family: "Montserrat", sans-serif;
@@ -1671,6 +1682,7 @@ table {
     font-family: "Montserrat", sans-serif;
     transform: translate(89px, 7px);
     letter-spacing: -1px;
+    width: 250px;
   }
   .component-5 .hovers span:hover {
     border-bottom: 1px solid #ed1c24;

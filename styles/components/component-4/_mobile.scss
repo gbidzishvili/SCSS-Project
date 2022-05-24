@@ -40,9 +40,11 @@
       color: $color-white;
       transform: translate(51px, -31px);
       letter-spacing: -0.3px;
+      width: 200px;
 
       .op-2 {
         transform: translate(43px, 6px);
+        width: 200px;
       }
       .op-3 {
         transform: translate(-14px, 11px);
@@ -59,6 +61,7 @@
       font-size: 12px;
       color: $color-white;
       transform: translate(70px, -20px);
+      width: 200px;
     }
     .comp-1-last {
       span {
