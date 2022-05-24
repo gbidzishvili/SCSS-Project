@@ -1,0 +1,120 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .component-2 {
+    .flex-justify {
+      display: flex;
+      justify-content: center;
+    }
+    .mob-disp-none {
+      display: none;
+    }
+    .after-cube {
+      .title {
+        font-size: 24px;
+        font-family: $primary-font-montserrat;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 28px;
+      }
+      .text-body {
+        font-family: $primary-font-open-sans;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .width-1 {
+          width: 230px;
+          transform: translate(3px, 0px);
+          @include spacing-inline;
+        }
+        .width-2 {
+          width: 230px;
+          transform: translate(10px, 0px);
+          @include spacing-inline;
+          .donec-disp-none {
+            display: none;
+          }
+        }
+        .width-3 {
+          width: 260px;
+          transform: translate(2px, 2px);
+          @include spacing-inline;
+        }
+        .width-4 {
+          width: 260px;
+          transform: translate(8px, 1px);
+          padding-bottom: 3px;
+          @include spacing-inline;
+          margin-bottom: 2px;
+        }
+        .width-5 {
+          width: 280px;
+          transform: translate(7px, 1px);
+          padding-bottom: 3px;
+          @include spacing-inline;
+          .ulla {
+            display: inline-block;
+          }
+        }
+      }
+      .disp {
+        display: none;
+      }
+      .passage-1 {
+        width: 250px;
+        letter-spacing: -0.3px;
+        word-spacing: 0.3px;
+        transform: translate(0px, 0px);
+        line-height: 20px;
+        font-size: 14px;
+
+        .lectus {
+          width: 280px;
+          transform: translate(-7px, 0px);
+          display: inline-block;
+          .mob-disp-none {
+            display: none;
+          }
+        }
+        .nam {
+          display: inline-block;
+          transform: translate(63px, 0px);
+          margin-bottom: 13px;
+        }
+      }
+      .passage-2 {
+        width: 256px;
+        letter-spacing: -0.3px;
+        word-spacing: 0.3px;
+        transform: translate(2px, 1px);
+        line-height: 18.3px;
+        font-size: 14px;
+        margin-bottom: 19px;
+        .nunc {
+          transform: translate(6px, 0px);
+          display: inline-block;
+        }
+        .mollis {
+          transform: translate(41px, 0px);
+          display: inline-block;
+        }
+        .elit {
+          transform: translate(2px, -1px);
+          display: inline-block;
+        }
+      }
+      .nam-2 {
+        transform: translate(-5px, 0px);
+        width: 270px;
+        display: inline-block;
+      }
+      .eleifend {
+        transform: translate(-2px, 0px);
+        width: 270px;
+        display: inline-block;
+      }
+    }
+  }
+}
