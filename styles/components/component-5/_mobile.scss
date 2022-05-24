@@ -1,0 +1,64 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .component-5 {
+    height: 164px;
+    background-color: black;
+    width: 100%;
+    transform: translate(0px, -404px);
+    .comp-1-cont-1 {
+      gap: 8.3px;
+      margin-bottom: 47px;
+      transform: translate(27px, 31px);
+      .e {
+        width: 39px;
+        height: 39px;
+        border: 3px solid $color-white;
+        color: $color-white;
+        padding-left: 10px;
+        font-size: 24px;
+        font-family: $primary-font-montserrat;
+        span {
+          display: inline-block;
+          transform: translate(-2px, 3px);
+          font-weight: bold;
+        }
+      }
+      .exhibition {
+        padding-top: 7px;
+        span {
+          font-family: $primary-font-montserrat;
+          font-weight: bold;
+          font-size: 14px;
+          transform: translate(0px, -4px);
+          display: inline-block;
+          letter-spacing: 0.8px;
+          color: $color-white;
+        }
+      }
+    }
+    .hovers {
+      color: #fff;
+      font-family: $primary-font-montserrat;
+      transform: translate(26px, 21px);
+      font-size: 13.8px;
+      letter-spacing: -0.9px;
+      span:hover {
+        border-bottom: 1px solid #ed1c24;
+      }
+    }
+    .up-arr {
+      width: 39px;
+      height: 39px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #fff;
+      transform: translate(258px, -76px);
+      svg {
+        fill: #fff;
+        &:hover {
+          fill: #ed1c24;
+        }
+      }
+    }
+  }
+}
