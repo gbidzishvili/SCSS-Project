@@ -1,9 +1,11 @@
-@media (min-width: 1024px) and (max-width: 1900px) {
+@media (min-width: 1024px) and (max-width: 1920px) {
   .component-2 {
     transform: translate(508px, -60px);
     display: flex;
     .inv-cub-cont {
       display: flex;
+      transform: translate(0px, -44px);
+      height: 480px;
       .inv-cube-2 {
         display: inline-block;
         width: 200px;
@@ -17,10 +19,13 @@
         height: 524px;
         background-color: #898989;
         transform: translate(-507px, 59px);
+        //
+        // transform: translate(0px, -45px);
+        // height: 482px;
       }
     }
     .after-cube {
-      transform: translate(-549px, 104px);
+      transform: translate(-549px, 59px);
 
       .title {
         font-size: 29px;
