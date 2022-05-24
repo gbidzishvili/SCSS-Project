@@ -1,0 +1,179 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .component-2 {
+    .title {
+      font-size: 29px;
+      font-family: $primary-font-montserrat;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 28px;
+      transform: translate(-219px, -1px);
+    }
+
+    .text-body {
+      font-family: $primary-font-open-sans;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: -0.5px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .tem-flex {
+        display: flex;
+      }
+
+      .width-1 {
+        width: 260px;
+        font-size: 19.8px;
+        transform: translate(90px, 18px);
+        @include spacing-inline;
+        border-bottom: 1px solid #707070;
+        padding-bottom: 4px;
+      }
+      .width-2 {
+        width: 304px;
+        transform: translate(87px, 18px);
+        font-size: 19.9px;
+        @include spacing-inline;
+        border-bottom: 1px solid #707070;
+        padding-bottom: 4px;
+        .donec-disp-none {
+          // display: none;
+        }
+      }
+      .width-3 {
+        width: 243px;
+        transform: translate(89px, 18.1px);
+        font-size: 19.9px;
+        @include spacing-inline;
+        border-bottom: 1px solid #707070;
+        .donec {
+          display: none;
+        }
+      }
+      .width-4 {
+        width: 280px;
+        transform: translate(76px, 18px);
+        font-size: 19.7px;
+        padding-bottom: 5px;
+        @include spacing-inline;
+        margin-bottom: 2px;
+        border-bottom: 1px solid #707070;
+      }
+      .width-5 {
+        width: 280px;
+        font-size: 20px;
+        transform: translate(73px, 18px);
+        padding-bottom: 3px;
+        @include spacing-inline;
+        border-bottom: 1px solid #707070;
+        width: 64px;
+        height: 31px;
+        .ulla {
+          padding-bottom: 5px;
+          transform: translate(-507px, 5px);
+          width: 233px;
+          border-bottom: 1px solid #707070;
+        }
+      }
+      .div-border {
+        display: none;
+      }
+    }
+    .tablet-flex {
+      margin-top: 25px;
+    }
+    .passage-1 {
+      width: 250px;
+      letter-spacing: -0.3px;
+      word-spacing: 0.3px;
+      transform: translate(89px, 30px);
+      line-height: 20px;
+      font-size: 14px;
+
+      .lectus {
+        width: 280px;
+        transform: translate(-1px, 0px);
+        display: inline-block;
+        .tab-disp-none {
+          display: none;
+        }
+      }
+      .nam {
+        display: inline-block;
+        transform: translate(-1px, 0px);
+        margin-bottom: 13px;
+      }
+    }
+    .tabl-disp-none {
+      display: none;
+    }
+    .passage-2 {
+      width: 256px;
+      letter-spacing: -0.3px;
+      word-spacing: 0.3px;
+      transform: translate(378px, -62px);
+      line-height: 18.3px;
+      font-size: 14px;
+      margin-bottom: 19px;
+
+      .nunc {
+        transform: translate(6px, 0px);
+        display: inline-block;
+      }
+      .consect {
+        transform: translate(7px, 0px);
+        display: inline-block;
+      }
+      .mollis {
+        transform: translate(6px, -1px);
+        display: inline-block;
+      }
+      .elit {
+        width: 292px;
+        transform: translate(-34px, -1px);
+        display: inline-block;
+        .elit-in {
+          display: inline-block;
+          transform: translate(301px, -18px);
+        }
+        .molis {
+          display: inline-block;
+          transform: translate(7px, -1px);
+        }
+      }
+    }
+    .nam-2 {
+      transform: translate(-5px, 0px);
+      width: 270px;
+      display: inline-block;
+    }
+    .eleifend {
+      transform: translate(-2px, 0px);
+      width: 270px;
+      display: inline-block;
+    }
+    .pas-last {
+      width: 600px;
+      letter-spacing: -0.3px;
+      word-spacing: 0.3px;
+      transform: translate(89px, -45px);
+      line-height: 20px;
+      font-size: 14px;
+
+      .lectus {
+        width: 280px;
+        transform: translate(-7px, 0px);
+        display: inline-block;
+      }
+      .nam {
+        display: inline-block;
+        transform: translate(63px, 0px);
+        margin-bottom: 13px;
+      }
+    }
+    .tabl-disp-none {
+      display: none;
+    }
+  }
+}
